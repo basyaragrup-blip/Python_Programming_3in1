@@ -1,0 +1,22 @@
+mountains = ["Merbabu", "Merapi", "Rinjani"]
+print(f"List awal: {mountains}")
+print(f"Pertama: {mountains[0]}, terakhir: {mountains[-1]}")
+mountains[1] = "Merbabu"
+print(f"Setelah diubah: {mountains}")
+mountains.append("Bromo")
+print(f"Setelah append(): {mountains}")
+mountains.insert(1, "Slamet")
+print(f"Setelah insert(): {mountains}")
+popped = mountains.pop()
+print(f"pop() menghapus: {popped}. List: {mountains}")
+del mountains[0]
+print(f"Setelah del: {mountains}")
+mountains.remove("Rinjani")
+print(f"Setelah remove(): {mountains}")
+mountains.extend(["Kerinci", "Lawu", "Arjuno"])
+print(f"sorted(): {sorted(mountains)}")
+mountains.sort()
+print(f"Setelah sort(): {mountains}")
+mountains.reverse()
+print(f"Setelah reverse(): {mountains}")
+print(f"Jumlah gunung: {len(mountains)}")
