@@ -1,0 +1,10 @@
+name = "\t\nFufu fafa\n\t"
+print("Nama asli:")
+print(name)
+print("-" * 20)
+print("Setelah lstrip():")
+print(f"[{name.lstrip()}]")
+print("Setelah rstrip():")
+print(f"[{name.rstrip()}]")
+print("Setelah strip():")
+print(f"[{name.strip()}]")
