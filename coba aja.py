@@ -1,0 +1,1 @@
+print("basthan ganteng")
